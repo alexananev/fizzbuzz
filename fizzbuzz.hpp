@@ -10,6 +10,7 @@ std::vector<std::string> fizzbuzz(std::vector<std::string> input_vec){
 		
 		std::string input = input_vec[j];
 		int size = input.size();
+		int div = 0;
 		
 		bool NaN = false;
 		
