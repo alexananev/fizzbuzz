@@ -11,10 +11,10 @@ void test(const std::vector<std::string> in, const std::vector<std::string> out)
 		cout << in[i] << " ";
 		
 	cout << endl << "Output: ";
-	for(int i = 0; i < out.size(); i++)
-		cout << out[i] << " ";
+	for(int i = 0; i < result.size(); i++)
+		cout << result[i] << " ";
 		
-	if(in == out)
+	if(result == out)
 		cout << endl << "OK!" << endl;
 	else cout << endl << "Wrong answer" << endl;
 	}
