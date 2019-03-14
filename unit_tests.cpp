@@ -40,7 +40,7 @@ int main()
 				"fizzbuzz", 
 				"buzz"},
 			out5 = {"NaN", "NaN", "NaN", "NaN", "NaN"},
-			out6 = {"-1", "2", "fizz", "4", "buzz", "fizz", "-7", "8", "fizz", "fizzbuzz"}
+			out6 = {"-1", "2", "fizz", "4", "buzz", "fizz", "-7", "8", "fizz", "fizzbuzz"};
 
 
 	test(in1, out1);
