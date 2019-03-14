@@ -1,2 +1,3 @@
-# acronis
-I don't know how to work with GitHub
+# fizzbuzz
+This is the project with fizzbuzz function
+
