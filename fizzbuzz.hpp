@@ -4,7 +4,7 @@
 
 
 
-void std::vector<std::string> fizzbuzz(std::vector<std::string> input_vec){
+std::vector<std::string> fizzbuzz(std::vector<std::string> input_vec){
 	std::vector<std::string> output;
 	for(int j = 0; j < input_vec.size(); j++){
 		
