@@ -1,4 +1,7 @@
 #include "fizzbuzz.hpp"
+#include <iostream>
+
+using namespace std;
 
 void test(const std::vector<std::string> in, const std::vector<std::string> out){
 	std::vector<std::string> result = fizzbuzz(in);
@@ -12,8 +15,8 @@ void test(const std::vector<std::string> in, const std::vector<std::string> out)
 		cout << out[i] << " ";
 		
 	if(in == out)
-		cout << "OK!" << endl;
-	else cout << "Wrong answer" << endl;
+		cout << endl << "OK!" << endl;
+	else cout << endl << "Wrong answer" << endl;
 	}
 
 int main()
